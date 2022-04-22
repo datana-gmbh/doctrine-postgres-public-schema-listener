@@ -1,4 +1,4 @@
-# doctrine-type-testcases
+# doctrine-postgres-public-schema-listener
 
 | Branch    | PHP                                         | Code Coverage                                        |
 |-----------|---------------------------------------------|------------------------------------------------------|
@@ -9,11 +9,11 @@
 ### Installation
 
 ```bash
-composer require datana-gmbh/doctrine-type-testcases
+composer require datana-gmbh/doctrine-postgres-public-schema-listener
 ```
 
-[build-status-master-php]: https://github.com/datana-gmbh/doctrine-type-testcases/workflows/PHP/badge.svg?branch=master
-[coverage-status-master]: https://codecov.io/gh/datana-gmbh/doctrine-type-testcases/branch/master/graph/badge.svg
+[build-status-master-php]: https://github.com/datana-gmbh/doctrine-postgres-public-schema-listener/workflows/PHP/badge.svg?branch=master
+[coverage-status-master]: https://codecov.io/gh/datana-gmbh/doctrine-postgres-public-schema-listener/branch/master/graph/badge.svg
 
-[actions]: https://github.com/datana-gmbh/doctrine-type-testcases/actions
-[codecov]: https://codecov.io/gh/datana-gmbh/doctrine-type-testcases
+[actions]: https://github.com/datana-gmbh/doctrine-postgres-public-schema-listener/actions
+[codecov]: https://codecov.io/gh/datana-gmbh/doctrine-postgres-public-schema-listener

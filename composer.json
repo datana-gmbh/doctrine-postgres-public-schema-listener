@@ -1,5 +1,5 @@
 {
-    "name": "datana-gmbh/doctrine-type-testcases",
+    "name": "datana-gmbh/doctrine-postgres-public-schema-listener",
     "type": "library",
     "description": "Doctrine Type Testcases",
     "license": "MIT",
@@ -11,29 +11,28 @@
     ],
     "require": {
         "php": ">=8.0",
-        "doctrine/dbal": "^2.0",
-        "phpunit/phpunit": "^9.5",
-        "symfony/uid": "^5.4 || ^6.0"
+        "doctrine/event-manager": "^1.1",
+        "doctrine/orm": "^2.12",
+        "doctrine/dbal": "^2.13"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.2",
         "ergebnis/test-util": "^1.5",
         "friendsofphp/php-cs-fixer": "^2.19",
-        "phpstan/extension-installer": "^1.0",
         "phpstan/phpstan": "^0.12.14",
-        "phpstan/phpstan-webmozart-assert": "^0.12.2"
+        "phpunit/phpunit": "^9.5"
     },
     "config": {
         "sort-packages": true
     },
     "autoload": {
         "psr-4": {
-            "Datana\\Doctrine\\Testcase\\": "src/"
+            "Datana\\Doctrine\\EventSubscriber\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Datana\\Doctrine\\Testcase\\Tests\\": "tests/"
+            "Datana\\Doctrine\\EventSubscriber\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",
