@@ -1,7 +1,7 @@
 {
     "name": "datana-gmbh/doctrine-postgres-public-schema-listener",
     "type": "library",
-    "description": "Doctrine Type Testcases",
+    "description": "An Migration EventSubscriber which ensures public namespace is only added if needed",
     "license": "MIT",
     "authors": [
         {
