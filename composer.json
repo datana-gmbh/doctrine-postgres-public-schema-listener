@@ -19,7 +19,7 @@
         "ergebnis/composer-normalize": "^2.2",
         "ergebnis/test-util": "^1.5",
         "friendsofphp/php-cs-fixer": "^2.19",
-        "phpstan/phpstan": "^0.12.14",
+        "phpstan/phpstan": "^1.7",
         "phpunit/phpunit": "^9.5"
     },
     "config": {
