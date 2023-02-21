@@ -24,8 +24,7 @@ jobs:
                     - "8.0"
 
         steps:
-            # in forks, the token is not available - so we cannot use it
-            -   if: github.actor == 'dependabot[bot]'
+            -
                 name: "Checkout"
                 uses: "actions/checkout@v3"
                 with:
@@ -69,8 +68,7 @@ jobs:
                     - "8.0"
 
         steps:
-            # in forks, the token is not available - so we cannot use it
-            -   if: github.actor == 'dependabot[bot]'
+            -
                 name: "Checkout"
                 uses: "actions/checkout@v3"
                 with:
@@ -106,8 +104,7 @@ jobs:
                     - "8.0"
 
         steps:
-            # in forks, the token is not available - so we cannot use it
-            -   if: github.actor == 'dependabot[bot]'
+            -
                 name: "Checkout"
                 uses: "actions/checkout@v3"
                 with:
